@@ -83,7 +83,7 @@ steps:
 -template: templates/build.yml
  parameters:
   buildconfiguration: 'Debug'
-
+  
 #- task: DotNetCoreCLI@2
 #  displayName: 'Publish the project - $(buildConfiguration)'
 #  inputs:
